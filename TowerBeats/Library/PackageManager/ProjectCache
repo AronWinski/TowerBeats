@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637845255484301082
-    m_Hash: 2635942507
+      ticks: 637845273675889248
+    m_Hash: 3773022629
   m_LockFileStatus:
     m_FilePath: E:/Programming/Game Development/Unity/Collabs/TowerBeats/TowerBeats/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637845255805778240
-    m_Hash: 2772143164
+      ticks: 637845273675889248
+    m_Hash: 3020911610
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
