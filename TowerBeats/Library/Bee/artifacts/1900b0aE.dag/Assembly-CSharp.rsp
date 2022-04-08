@@ -344,7 +344,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/BeatSync.cs"
+"Assets/Scripts/BeatSync/BeatCounter.cs"
+"Assets/Scripts/BeatSync/BeatObserver.cs"
+"Assets/Scripts/BeatSync/BeatSynchronizer.cs"
+"Assets/Scripts/BeatSync/PatternCounter.cs"
+"Assets/Scripts/BeatSync/SynchronizerData.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SubTowerController.cs"
 -langversion:9.0

@@ -1,23 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SynchronizerData;
 
 public class SubTowerController : MonoBehaviour
 {
     // pulse flag so enemy objects can check for radius
     bool activeFlag;
 
-    // Start is called before the first frame update
+    private BeatObserver beatObserver;
+
+    public GameObject radi;
+
     void Start()
     {
-        activeFlag = false;
-
+        beatObserver = GetComponent<BeatObserver>();
+        radi.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat)
+        {
+            radi.SetActive(true);
+        }
+        if ((beatObserver.beatMask & BeatType.UpBeat) == BeatType.UpBeat)
+        {
+            radi.SetActive(false);
+        }
     }
 
 
